@@ -8,6 +8,7 @@ body {
 .landing-page {
   display: flex;
   flex-direction: column;
+  flex: 1;
   font-family: Roboto, sans-serif;
 }
 
@@ -55,7 +56,7 @@ a {
   align-items:center;
   justify-content:center;
   gap: 100px;
-  padding: 0 0 64px;
+  padding: 32px 0 96px;
   background-color: #1F2937;
 }
 
@@ -98,7 +99,7 @@ a {
 
 .offer-info-section {
   align-items:center;
-  padding: 64px;
+  padding: 96px;
 }
 
 h2 {
@@ -114,6 +115,7 @@ h2 {
   flex-wrap: wrap;
   justify-content: center;
   text-align: center;
+  padding: 16px;
   gap: 16px;
 }
 
@@ -129,9 +131,38 @@ h2 {
   max-width: 240px;
 }
 
+.quote-section {
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e7eb;
+  padding: 16px 30%;
+}
+
+.quote-text {
+  font-size: 36px;
+  color: #1F2937;
+  font-style: italic;
+  font-weight: lighter;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.quote-author {
+  font-size: 18px;
+  color: #1F2937;
+  font-weight:bold;
+  text-align:end;
+}
+
+.sign-up-section {
+  display: flex;
+  justify-content: center;
+}
+
 .footer {
   display: flex;
   justify-content: center;
+  color: #ffffff;
   background-color: #1F2937;
   height: 72px;
   align-items: center;
