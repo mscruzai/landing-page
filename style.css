@@ -22,10 +22,10 @@ a {
 
 .header-nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 480px;
   align-items: center;
   height: 72px;
-  padding: 0 128px;
   background-color: #1f2937;
 }
 
@@ -33,7 +33,7 @@ a {
   display: flex;
   color: #f9faf8;
   align-items: center;
-  gap: 8px;
+  gap: 16px;
   font-size: 24px;
 }
 
@@ -50,12 +50,12 @@ a {
   gap: 32px;
 }
 
-.hero-container {
+.hero-section {
   display: flex;
   align-items:center;
-  justify-content:space-between;
-  gap: 64px;
-  padding: 0px 128px 32px;
+  justify-content:center;
+  gap: 100px;
+  padding: 0 0 64px;
   background-color: #1F2937;
 }
 
@@ -63,6 +63,7 @@ a {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  max-width: 480px;
 }
 
 .hero-content h1 {
@@ -95,13 +96,38 @@ a {
   width: auto;
 }
 
-.offer-info {
+.offer-info-section {
   align-items:center;
-  font-size: 36px;
-  font-weight: bolder;
-  color: #1F2937;
+  padding: 64px;
 }
 
+h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  margin-top: 0px;
+}
+
+.info-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  gap: 16px;
+}
+
+.info-cards img {
+  object-fit: cover;
+  width: 240px;
+  height: 200px;
+  border-radius: 16px;
+  border: 4px solid #3882F6;
+}
+
+.info-cards p {
+  max-width: 240px;
+}
 
 .footer {
   display: flex;
